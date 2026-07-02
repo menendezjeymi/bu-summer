@@ -1,0 +1,153 @@
+// HOMEWORK 1
+
+/*  
+    First Name: Jeymi
+    Last Name: Menendez
+    Date: 06/29/26
+
+    NOTE: DO THE WORK INSIDE THE FUNCTION GIVEN TO YOU!
+*/
+
+/* 
+    QUESTION 1: Print out your name, your grade, and what you are looking
+    forward to in this class! I want you to print out using "console.log()" 
+    for each! (10 POINTS)
+
+    Output: 
+        name
+        grade 12th 
+        What you are looking forward to in this class?
+        being to actually understand this class)"
+*/
+
+function question1() {  
+    // TO-DO: COMPLETE ME!
+    // PLEASE PRINT THE RESULT IN THIS FUNCTION
+    console.log("jeymi Menendez");
+    console.log("grade 12th");
+    console.log("im looking foward to actually understanding this class");
+};
+
+/* 
+    QUESTION 2: I want you to print out a sentence based on your
+    favorite food! You can only have one variable that contains that 
+    food! (10 POINTS)
+
+    NOTE: Since you are outputting a string with that variable, what
+    should you use? Check back on slide 8 in the 6/26 presentation!
+
+    Output: My favorite food is ________!
+*/
+
+function question2() {  
+    // TO-DO: COMPLETE ME!
+    // PLEASE PRINT THE RESULT IN THIS FUNCTION
+    
+};
+
+};
+
+/* 
+    QUESTION 3: I want you to create a function "multiplyNums()" 
+    where it takes in two parameters. Then it multiplies x and y! 
+    For this one, you do NOT have to declare variables. (20 POINTS)
+
+    NOTE: You can create a function inside a function!
+
+    Your job after declaring a function is to call the method 4 times. Each call
+    will have each number.
+
+    Input: (4, 4), (1, 5), (6, 5), (10, 10)
+
+    Output: 16, 5, 30, 100
+
+*/
+
+function question3() {  
+    // TO-DO: COMPLETE ME!
+    // PLEASE PRINT THE RESULT IN THIS FUNCTION
+};
+
+/* 
+    QUESTION 4: Plug in the answers that matches the definition
+    (10 POINTS)
+*/
+
+function question4() {  
+    // TO-DO: COMPLETE ME!
+    // PLEASE PRINT THE RESULT IN THIS FUNCTION
+
+    // Fill in these answers between the quotations to match the definitions!
+    let answer1 =  console.log("jeymi Menendez");
+console.log("grade 12th");
+console.log("im looking foward to actually understanding this class");
+
+    let answer2 = "";
+    let answer3 = "";
+    let answer4 = "";
+
+    console.log(`What case do you use for filenames?: ${answer1}`);
+    console.log(`What case do you use for constant variables: ${answer2}`);
+    console.log(`What case do you use for variables and functions: ${answer3}`);
+    console.log(`What case do you use for classes, objects: ${answer4}`);
+};
+
+/* 
+    QUESTION 5: Create a function "celsiusToFahrenheit()" to convert 
+    celsius to fahrenheit. It will only take one parameter which is
+    the celsius Try to look up the formula and code it out! Call the method
+    4 times and plug in the inputs given. (25 points)
+
+    REMINDER: YOU DO NOT HAVE TO DECLARE A VARIABLE! YOU CAN JUST PLUG IN A
+    NUMBER FOR THE PARAMETER!
+
+    Here are the math operations you can use: +, -, *, /
+
+    Input 1: 0 -> 32
+    Input 2: 100 -> 212
+    Input 3: 32 -> 89.6
+    Input 4: 60 -> 140
+    
+*/
+
+function question5() {  
+    // TO-DO: COMPLETE ME!
+    // PLEASE PRINT THE RESULT IN THIS FUNCTION
+};
+
+/* 
+    QUESTION 6: Create a function that will convert inches to feet. The name of
+    the function should be "inchesToFeet()" and will only take one parameter.
+    (25 points)
+
+    REMINDER: YOU DO NOT HAVE TO DECLARE A VARIABLE! YOU CAN JUST PLUG IN A
+    NUMBER FOR THE PARAMETER!
+
+    Input 1: 12 -> 1
+    Input 2: 36 -> 3
+    Input 3: 1 -> 0.08
+    Input 4: 5 -> 0.41
+*/
+
+function question6() {  
+    // TO-DO: COMPLETE ME!
+    // PLEASE PRINT THE RESULT IN THIS FUNCTION
+};
+
+// DO NOT EDIT THIS
+function start() {
+    console.log("Starting Question 1:");
+    question1()
+    console.log("Starting Question 2:");
+    question2()
+    console.log("Starting Question 3:");
+    question3()
+    console.log("Starting Question 4:");
+    question4()
+    console.log("Starting Question 5:");
+    question5()
+    console.log("Starting Question 6:");
+    question6()
+}
+
+start();
