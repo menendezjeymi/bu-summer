@@ -39,13 +39,17 @@ function question1() {
     Output: My favorite food is ________!
 */
 
-function question2() {  
-    // TO-DO: COMPLETE ME!
+let favfood = "pupusas";
+
+function question2(favfood) { 
+
+    console.log('My favorite food is ${favfood}!');
+
+
+     // TO-DO: COMPLETE ME!
     // PLEASE PRINT THE RESULT IN THIS FUNCTION
-    
 };
 
-};
 
 /* 
     QUESTION 3: I want you to create a function "multiplyNums()" 
@@ -64,7 +68,25 @@ function question2() {
 */
 
 function question3() {  
-    // TO-DO: COMPLETE ME!
+function multiplyNums(x,y) {
+
+    console.log(x * y);
+
+    multiplyNums(4, 4); // Output: 16
+
+    multiplyNums(1, 5); // Output: 5
+
+    multiplyNums(6, 5); // Output: 30
+
+    multiplyNums(10, 10); // Output: 100
+
+
+
+    }
+
+
+
+ // TO-DO: COMPLETE ME!
     // PLEASE PRINT THE RESULT IN THIS FUNCTION
 };
 
@@ -78,13 +100,10 @@ function question4() {
     // PLEASE PRINT THE RESULT IN THIS FUNCTION
 
     // Fill in these answers between the quotations to match the definitions!
-    let answer1 =  console.log("jeymi Menendez");
-console.log("grade 12th");
-console.log("im looking foward to actually understanding this class");
-
-    let answer2 = "";
-    let answer3 = "";
-    let answer4 = "";
+    let answer1 =  "kebab-case";
+    let answer2 = "SCREAMING_SNAKE_CASE";
+    let answer3 = "camelCase";
+    let answer4 = "PascalCase";
 
     console.log(`What case do you use for filenames?: ${answer1}`);
     console.log(`What case do you use for constant variables: ${answer2}`);
@@ -113,6 +132,13 @@ console.log("im looking foward to actually understanding this class");
 function question5() {  
     // TO-DO: COMPLETE ME!
     // PLEASE PRINT THE RESULT IN THIS FUNCTION
+function celsiusToFahrenheit(celsius) {console.log} ((celsisus * 9/5)+32);}
+
+
+celsiusToFahrenheit(0)
+celsiusToFahrenheit(100)
+celsiusToFahrenheit(32)
+celsiusToFahrenheit(60)
 };
 
 /* 
@@ -127,11 +153,20 @@ function question5() {
     Input 2: 36 -> 3
     Input 3: 1 -> 0.08
     Input 4: 5 -> 0.41
+
 */
 
 function question6() {  
     // TO-DO: COMPLETE ME!
     // PLEASE PRINT THE RESULT IN THIS FUNCTION
+    function inchesToFeet (inches)
+        console.log (inches/12);
+
+    inchesToFeet (12);
+    inchesToFeet (36);
+    inchesToFeet (1);
+    inchesToFeet (5);
+
 };
 
 // DO NOT EDIT THIS
