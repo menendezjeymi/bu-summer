@@ -1,9 +1,9 @@
 // HOMEWORK 2
 
 /* 
-    First Name:
-    Last Name:
-    Date:
+    First Name: Jeymi
+    Last Name: Menendez
+    Date: 07/13/27
 
     NOTE: DO THE WORK INSIDE THE FUNCTION GIVEN TO YOU!
 */
@@ -34,6 +34,22 @@ function question1() {
     // PLEASE PRINT THE RESULT IN THIS FUNCTION
     const player1Choice = ["Rock", "Paper", "Scissors"];
     const player2Choice = ["Rock", "Paper", "Scissors"];
+    let player1pick = player1Choice[Math.floor(Math.random() * 3)];
+    let player2pick = player2Choice[Math.floor(Math.random() * 3)];
+    for (let i = 0; i < 100; i++) {
+        if (player1pick === player2pick) {
+            console.log("It's a tie!");
+        } else if (
+            (player1pick === "Rock" && player2pick === "Scissors") ||
+            (player1pick === "Paper" && player2pick === "Rock") ||
+            (player1pick === "Scissors" && player2pick === "Paper")
+        ) {
+            console.log("Player 1 wins!");
+        } else {
+            console,log("Player 2 wins!");
+        }
+    }
+
 
 
 };
@@ -88,6 +104,26 @@ function bonusQuestion() {
     let test4 = [8, 37, 2, 61, 49, 15];
 
     // START HERE
+
+    function bubbleSort(arr) {
+        let n = arr.length;
+        for (let i = 0; i < n - 1; i++) {
+            for (let j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr [j + 1]) {
+                    // If the current element is greater than the next element, swap them
+                    let temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+        return arr;
+    }
+    console.log("Test Case 1:", bubbleSort(test1));
+    console.log("Test Case 2:", bubbleSort(test2));
+    console.log("Test Case 3:", bubbleSort(test3));
+    console.log("Test Case 4:", bubbleSort(test4));
+
 
 };
 
